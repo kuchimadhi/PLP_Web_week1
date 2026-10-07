@@ -1,0 +1,58 @@
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+/* ID selector */
+#page-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#page-header h1 {
+    margin-bottom: 0.5rem;
+}
+
+/* Class selectors */
+.expense-section,
+.expenses-placeholder {
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.expense-section {
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+}
+
+.expenses-placeholder {
+    background-color: #e9f2ff;
+    border: 1px solid #b8d4f5;
+}
+
+.expense-section h2,
+.expenses-placeholder h2 {
+    margin-top: 0;
+}
+
+.expense-section label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.expense-section input {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 0.4rem;
+    padding: 0.7rem;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 1rem;
+}
